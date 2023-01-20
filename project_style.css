@@ -1,0 +1,32 @@
+:root{
+    --rosewater: #FFC2C7;
+    --rosewater_border: #cc9b9f;
+    --spearmint: #B6E5D8;
+    --peach: #FBE5C8;
+    --turquoise: #8FDDE7;
+}
+
+#sssProject li img {
+    width: 40%;
+}
+
+.project{
+    margin: 5px;
+    border: 1px solid var(--rosewater_border);
+    padding: 1em;
+    background-color: var(--rosewater);
+    border-radius: 10px;
+}
+
+.project li:last-of-type{
+    list-style-type: none;
+}
+
+h1 {
+    margin-left: 5%;
+    width: 10%;
+    border: 1px solid var(--rosewater_border);
+    text-align: center;
+    background-color: var(--rosewater);
+    border-radius: 10px;
+}

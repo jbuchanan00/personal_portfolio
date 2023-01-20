@@ -8,8 +8,14 @@
 body{
     display: flex;
     flex-direction: column;
-    width: 75%;
     background-color: var(--spearmint);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    
+    width: 75%;
 }
 .navBar{
     display: flex;
@@ -38,6 +44,3 @@ body{
     color: black;
 }
 
-#sssProject li img {
-    width: 40%;
-}
