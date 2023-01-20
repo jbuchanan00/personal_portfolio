@@ -1,0 +1,43 @@
+:root{
+    --rosewater: #FFC2C7;
+    --spearmint: #B6E5D8;
+    --peach: #FBE5C8;
+    --turquoise: #8FDDE7;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: var(--spearmint);
+}
+.navBar{
+    display: flex;
+    border: 1px solid #000;
+    height: 3em;
+    justify-content: space-between;
+    background-color: var(--peach);
+}
+
+.navLinks{
+    display: flex;
+    width: 50%;
+    border: 1px solid #000;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navLinks a{
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navLinks a:visited{
+    color: black;
+}
+
+#sssProject li img {
+    width: 40%;
+}
