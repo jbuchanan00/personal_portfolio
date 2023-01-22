@@ -2,7 +2,9 @@
     --rosewater: #FFC2C7;
     --spearmint: #B6E5D8;
     --peach: #FBE5C8;
+    --peach-border: #BEB4AB;
     --turquoise: #8FDDE7;
+    --spearmint-border: #7FA097;
 }
 
 body{
@@ -14,23 +16,25 @@ body{
     align-items: center;
 }
 .body{
-    
     width: 75%;
 }
 .navBar{
     display: flex;
-    border: 1px solid #000;
+    border: 5px solid var(--peach-border);
+    border-radius: 5px;
     height: 3em;
     justify-content: space-between;
     background-color: var(--peach);
+    box-shadow: 0px 2px 5px var(--spearmint-border);
+    
 }
 
 .navLinks{
     display: flex;
     width: 50%;
-    border: 1px solid #000;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .navLinks a{

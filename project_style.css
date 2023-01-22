@@ -4,6 +4,8 @@
     --spearmint: #B6E5D8;
     --peach: #FBE5C8;
     --turquoise: #8FDDE7;
+    --peach-border: #BEB4AB;
+    --spearmint-border: #7FA097;
 }
 
 #sssProject li img {
@@ -12,10 +14,11 @@
 
 .project{
     margin: 5px;
-    border: 1px solid var(--rosewater_border);
+    border: 3px solid var(--rosewater_border);
     padding: 1em;
     background-color: var(--rosewater);
     border-radius: 10px;
+    box-shadow: 5px 2px 5px var(--peach-border), -5px -2px 5px var(--peach-border);
 }
 
 .project li:last-of-type{
@@ -23,10 +26,30 @@
 }
 
 h1 {
-    margin-left: 5%;
-    width: 10%;
-    border: 1px solid var(--rosewater_border);
-    text-align: center;
-    background-color: var(--rosewater);
+    font-size: 3em;
+    text-align: left;
+    padding-left: 50px;
+    width: 100%;
     border-radius: 10px;
+    text-decoration: underline;
+    text-decoration-color: var(--spearmint-border);
+}
+
+.project_cards_holder{
+    width: 75%;
+    background-color: var(--peach);
+    border: 5px solid var(--peach-border);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    box-shadow: 5px 2px 5px var(--spearmint-border), -5px -2px 5px var(--spearmint-border);
+}
+
+.project_body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
