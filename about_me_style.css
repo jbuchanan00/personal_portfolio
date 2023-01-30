@@ -1,0 +1,28 @@
+h5{
+    width: 75%;
+}
+
+img:nth-child(1){
+    width: 25%;
+}
+
+img:nth-child(2){
+    width: 30%;
+}
+
+img:nth-child(3){
+    width: 28%;
+}
+
+img:nth-child(4){
+    width: 32%;
+}
+
+img:nth-child(5){
+    width: 27%;
+}
+
+.about_me_body{
+    display: flex;
+    flex-direction: column;
+}
