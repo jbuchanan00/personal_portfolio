@@ -18,11 +18,15 @@
 
 .project{
     margin: 5px;
-    border: 3px solid var(--rosewater_border);
+    /*border: 3px solid var(--rosewater_border);*/
     padding: 1em;
-    background-color: var(--rosewater);
+    /*background-color: var(--rosewater);*/
     border-radius: 10px;
-    box-shadow: 5px 2px 5px var(--peach-border), -5px -2px 5px var(--peach-border);
+    /*box-shadow: 5px 2px 5px var(--peach-border), -5px -2px 5px var(--peach-border);*/
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,.8), rgba(255,255,255,.1));
+    backdrop-filter: blur(2em);
+    border: 3px solid var(--spearmint);
 }
 
 .project li:last-of-type{
@@ -31,14 +35,16 @@
 
 .project_cards_holder{
     width: 75%;
-    background-color: var(--peach);
-    border: 5px solid var(--peach-border);
+    /*background-color: var(--peach);
+    border: 5px solid var(--peach-border);*/
+    background: white;
+    background: linear-gradient(to right, #FBE5C8E0, #FBE5C8C0);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 25px;
-    box-shadow: 5px 2px 5px var(--spearmint-border), -5px -2px 5px var(--spearmint-border);
+    /*box-shadow: 5px 2px 5px var(--spearmint-border), -5px -2px 5px var(--spearmint-border);*/
 }
 
 .project_body{
@@ -75,3 +81,5 @@
 #hotel_sql_project li img:last-of-type:hover{
     width: 100%;
 }
+
+

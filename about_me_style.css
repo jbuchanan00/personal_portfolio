@@ -2,23 +2,23 @@ h5{
     width: 75%;
 }
 
-img:nth-child(1){
+.about_me_pictures img:nth-child(1){
     width: 25%;
 }
 
-img:nth-child(2){
+.about_me_pictures img:nth-child(2){
     width: 30%;
 }
 
-img:nth-child(3){
+.about_me_pictures img:nth-child(3){
     width: 28%;
 }
 
-img:nth-child(4){
+.about_me_pictures img:nth-child(4){
     width: 32%;
 }
 
-img:nth-child(5){
+.about_me_pictures img:nth-child(5){
     width: 27%;
 }
 
